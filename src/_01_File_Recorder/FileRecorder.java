@@ -11,7 +11,7 @@ public class FileRecorder {
 	public static void main(String[] args) {
 		String message = JOptionPane.showInputDialog("What is the message you want to record into the file?");
 		try {
-			FileWriter fw = new FileWriter("src/_01_File_Recorder/messages.txt", true);
+			FileWriter fw = new FileWriter("src/_01_File_Recorder/inform.txt", true);
 			fw.append("\n"+message);
 			fw.close();
 		}
